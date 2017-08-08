@@ -1,7 +1,7 @@
 {
   "name": "FashionLounge",
   "version": "1.0.0",
-  "description": "Frontend for private project",
+  "description": "Frontend for Hana P.",
   "dependencies": {
     "bootstrap": "^3.3.7"
   }
