@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Módní salon">
+    <meta name="author" content="Hana Procházková">
+    <meta name="keywords" content="módní salon,hana procházková, prora, baxantová, svatební šaty, módní oblečení">
+
+    <title>Hana Procházková</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="node_modules/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <script src="js/google_map.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationBar">
+                    <img class="navbar-toggle-icon" src="assets/menu_icon.png" alt="Prora">
+                </button>
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img class="img-logo" src="assets/logo3.png" height="75px" alt="Prora">
+                </a>
+            </div>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navigationBar">
+                <div class="row">
+                    <div class="col-md-10 col-lg-7 col-md-offset-2 col-lg-offset-5">
+                        <ul class="nav navbar-nav">
+                            <li role="presentation" class="active"><a class="a-custom" href="index.html">Úvod</a></li>
+                            <li role="presentation" class=""><a class="a-custom" href="about.html">O nás</a></li>
+                            <li role="presentation" class=""><a class="a-custom" href="portfolio.html">Portfolio</a></li>
+                            <li role="presentation" class=""><a class="a-custom" href="reference.html">Reference</a></li>
+                            <li role="presentation" class=""><a class="a-custom" href="actions.html">Akce</a></li>
+                            <li role="presentation" class=""><a class="a-custom" href="prices.html">Ceník</a></li>
+                            <li role="presentation" class=""><a class="a-custom" href="contact.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <br><br><br>
+    <h1 style="text-align: center">Kde nás najdete?</h1>
+    <br><br><br><br><br>
+
+    <!-- Contact -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="google-map" style="height: 510px; width: auto"></div>
+            </div><br><br>
+            <div class="col-md-4 col-xs-6">
+                <div class="media">
+                    <div class="media-left">
+                        <span class="glyphicon footer-glyphicon glyphicon-home" aria-hidden="true"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Adresa</h4>
+                        <p>
+                            Módní salon Hany Procházkové<br>
+                            Čechtín 2
+                        </p>
+                    </div>
+                </div><br><br>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="media">
+                    <div class="media-left">
+                        <span class="glyphicon footer-glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Kontakt</h4>
+                        <p>
+                            Mobil: 724 933 061<br>
+                            E-mail: prora@prora.cz
+                        </p>
+                    </div>
+                </div><br><br>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="media">
+                    <div class="media-left">
+                        <span class="glyphicon footer-glyphicon glyphicon-time" aria-hidden="true"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Provozní doba</h4>
+                        <p>
+                            Pondělí – Sobota: 8:30 - 18:00<br>
+                            Neděle: zavřeno
+                        </p>
+                    </div>
+                </div><br><br>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="media">
+                    <div class="media-left">
+                        <span class="glyphicon footer-glyphicon glyphicon-user" aria-hidden="true"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Sociální sítě</h4>
+                        <strong>
+                            <p>
+                                <a href="http://www.facebook.com">Facebook</a><br>
+                                <a href="http://www.instagram.com">Instagram</a>
+                            </p>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/js/bootstrap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPT14YDa5iKJ5037s2YV_97wLRkcXRymQ&callback=googleMap"></script>
+</body>
+
+</html>
