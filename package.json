@@ -1,0 +1,8 @@
+{
+  "name": "FashionLounge",
+  "version": "1.0.0",
+  "description": "Frontend for private project",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
