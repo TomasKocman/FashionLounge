@@ -1,1 +1,43 @@
+.navbar {
+    height: 120px;
+}
 
+.footer-menu {
+    min-height:40px;
+    background-color:#000000;
+}
+
+.footer-text {
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-top: 13px;
+}
+
+.footer-ul {
+    list-style-type: none;
+    float: right;
+    margin-bottom: 0px;
+    padding-top: 13px;
+}
+
+.footer-ul li {
+    float: left;
+}
+
+.footer-ul li:after {
+    content: "/";
+    color: #FFFFFF;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.footer-ul li a {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+#google-map {
+    width: auto;
+    height: 400px;
+}
