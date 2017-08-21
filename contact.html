@@ -35,13 +35,13 @@
                 <div class="row">
                     <div class="col-md-10 col-lg-8 col-md-offset-2 col-lg-offset-4">
                         <ul class="nav nav-tabs nav-justified">
-                            <li role="presentation" class="active"><a class="a-custom" href="index.html">Úvod</a></li>
-                            <li role="presentation" class=""><a class="a-custom" href="about.html">O nás</a></li>
-                            <li role="presentation" class=""><a class="a-custom" href="portfolio.html">Portfolio</a></li>
-                            <li role="presentation" class=""><a class="a-custom" href="reference.html">Reference</a></li>
-                            <li role="presentation" class=""><a class="a-custom" href="actions.html">Akce</a></li>
-                            <li role="presentation" class=""><a class="a-custom" href="prices.html">Ceník</a></li>
-                            <li role="presentation" class=""><a class="a-custom" href="contact.html">Kontakt</a></li>
+                            <li role="presentation"><a class="a-custom" href="index.html">Úvod</a></li>
+                            <li role="presentation"><a class="a-custom" href="about.html">O nás</a></li>
+                            <li role="presentation"><a class="a-custom" href="portfolio.html">Portfolio</a></li>
+                            <li role="presentation"><a class="a-custom" href="reference.html">Reference</a></li>
+                            <li role="presentation"><a class="a-custom" href="actions.html">Akce</a></li>
+                            <li role="presentation"><a class="a-custom" href="prices.html">Ceník</a></li>
+                            <li role="presentation" class="active"><a class="a-custom" href="contact.html">Kontakt</a></li>
                         </ul>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
     </nav>
 
     <br><br><br>
-    <h1 style="text-align: center">Kde nás najdete?</h1>
+    <h1 class="text-center">Kde nás najdete?</h1>
     <br><br><br><br><br>
 
     <!-- Contact -->
@@ -120,6 +120,39 @@
         </div>
     </div>
     <br><br><br><br>
+
+    <div class="container">
+        <hr>
+        <br><br>
+        <h2 class="text-center">Můžete nám zanechat zprávu níže</h2>
+        <br><br><br>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="name" class="col-lg-3 col-md-3 control-label">Jméno a příjmení</label>
+                <div class="col-lg-6 col-md-7">
+                    <input type="email" class="form-control" id="name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="col-lg-3 col-md-3 control-label">Email</label>
+                <div class="col-lg-6 col-md-7">
+                    <input type="email" class="form-control" id="inputEmail">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="col-lg-3 col-md-3 control-label">Zpráva</label>
+                <div class="col-lg-6 col-md-7">
+                    <textarea class="form-control" rows="7"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-3 col-lg-offset-3">
+                    <button type="submit" class="btn btn-default">Odeslat</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br><br>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="node_modules/bootstrap/js/bootstrap.js"></script>
