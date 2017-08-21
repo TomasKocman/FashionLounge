@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Frontend for Hana P.",
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "vue-cli": "^2.8.2"
   }
 }
